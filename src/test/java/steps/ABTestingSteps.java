@@ -13,8 +13,8 @@ public class ABTestingSteps {
 
     @Given("I launch the URL {string}")
     public void i_launch_the_URL(String url) {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+       /* WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();*/
         driver.get(url);
     }
 
